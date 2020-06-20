@@ -1,0 +1,31 @@
+.message-board {
+    margin: 20px;
+}
+
+.message-board .form-item {
+    margin-bottom: 10px;
+}
+
+.message-board .form-item label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.message-board .form-item input, .message-board .form-item textarea {
+    width: 100%;
+    min-height: 30px;
+    background-color: #ffffff12;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.message-board .form-item button {
+    background-color: #ffffff12;
+    padding: 5px 10px;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

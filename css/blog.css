@@ -1,0 +1,46 @@
+.blog-list li {
+    padding: 10px;
+}
+
+.blog-list li .title {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.blog-list li .title a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.blog-list li .footer {
+    font-size: 13px;
+    margin-top: 10px;
+    color: #cecece;
+}
+
+.blog-list li .footer span:nth-child(n+2) {
+    margin-left: 10px;
+}
+
+.blog-list li .content {
+    font-size: 14px;
+    line-height: 30px;
+    color: #cecece;
+}
+
+.blog-list li:nth-child(n+2) {
+    border-top: 1px dashed #e0e0e0;
+    margin-top: 10px;
+}
+
+article {
+    padding: 20px;
+    line-height: 32px;
+    font-size: 16px;
+}
+
+article p {
+    text-indent: 50px;
+    margin-top: 10px;
+}

@@ -1,0 +1,26 @@
+:root {
+    --table-border: 1px dashed #fff;
+}
+
+.about {
+    overflow: hidden;
+}
+
+.about table {
+    border: var(--table-border);
+    margin: 30px auto;
+    width: 700px;
+    line-height: 32px;
+}
+
+.about table tr > *:nth-child(n+2) {
+    border-left: var(--table-border);
+}
+
+.about table td {
+    text-align: center;
+}
+
+.about table tr:nth-child(n+2) td, .about table tr:nth-child(n+2) th {
+    border-top: var(--table-border);
+}
